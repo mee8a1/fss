@@ -2,12 +2,12 @@
 # mee8a1@gmx.com @fss78.ru 20191121
 #
 <#
-÷èòàåò AD
+Ã·Ã¨Ã²Ã Ã¥Ã² AD
 #>
 
 $outFile = 'fss-Get-Usr.txt'
 $myServer = 'fss.local'
-$iam = 'CN=** ** **,OU=ÎÈ (Îòäåë èíôîðìàòèçàöèè),OU=Users,OU=**,OU=**,OU=**,DC=fss,DC=local'
+$iam = 'CN=** ** **,OU=ÃŽÃˆ (ÃŽÃ²Ã¤Ã¥Ã« Ã¨Ã­Ã´Ã®Ã°Ã¬Ã Ã²Ã¨Ã§Ã Ã¶Ã¨Ã¨),OU=Users,OU=**,OU=**,OU=**,DC=fss,DC=local'
 $myADBase = "OU=**,OU=**,DC=**,DC=local"
 $myName = "**.**.**"
 
@@ -18,7 +18,7 @@ $myName = "**.**.**"
 #
 
 # do this for more security!
-$AdminCredentials = Get-Credential "my.savchenko.78@fss.local"
+$AdminCredentials = Get-Credential "my.name.78@fss.local"
 #-Credential 
 #Get-ADUser -Filter {EmailAddress -like "*"}
 #Set-ADUser [-Identity] <ADUser> [-AccountExpirationDate <System.Nullable[System.DateTime]>] [-AccountNotDelegated <System.Nullable[bool]>] [-Add <hashtable>] [-AllowReversiblePasswordEncryption <System.Nullable[bool]>] [-CannotChangePassword <System.Nullable[bool]>] [-Certificates <hashtable>] [-ChangePasswordAtLogon <System.Nullable[bool]>] [-City <string>] [-Clear <string[]>] [-Company <string>] [-Country <string>] [-Department <string>] [-Description <string>] [-DisplayName <string>] [-Division <string>] [-EmailAddress <string>] [-EmployeeID <string>] [-EmployeeNumber <string>] [-Enabled <System.Nullable[bool]>] [-Fax <string>] [-GivenName <string>] [-HomeDirectory <string>] [-HomeDrive <string>] [-HomePage <string>] [-HomePhone <string>] [-Initials <string>] [-LogonWorkstations <string>] [-Manager <ADUser>] [-MobilePhone <string>] [-Office <string>] [-OfficePhone <string>] [-Organization <string>] [-OtherName <string>] [-PasswordNeverExpires <System.Nullable[bool]>] [-PasswordNotRequired <System.Nullable[bool]>] [-POBox <string>] [-PostalCode <string>] [-ProfilePath <string>] [-Remove <hashtable>] [-Replace <hashtable>] [-SamAccountName <string>] [-ScriptPath <string>] [-ServicePrincipalNames <hashtable>] [-SmartcardLogonRequired <System.Nullable[bool]>] [-State <string>] [-StreetAddress <string>] [-Surname <string>] [-Title <string>] [-TrustedForDelegation <System.Nullable[bool]>] [-UserPrincipalName <string>] [-AuthType {<Negotiate> | <Basic>}] [-Credential <PSCredential>] [-Partition <string>] [-PassThru <switch>] [-Server <string>] [-Confirm] [-WhatIf] [<CommonParameters>]
